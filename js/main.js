@@ -1,4 +1,4 @@
-$("#experiences_content").hide();
+$("#background_content").hide();
 
 $(document).ready(function () {
   console.log("Welcome to my website!");
@@ -27,7 +27,7 @@ $(document).ready(function () {
   });
 
   // Handle 'Education' content
-  $("#experiences").click(function (e) {
+  $("#background").click(function (e) {
     // If the div has already the class active, no need to reload the divs...
     if (!$(e.target).hasClass("active")) {
       // Update navbar
@@ -38,7 +38,7 @@ $(document).ready(function () {
       clearActiveDivs();
 
       // Show current content
-      activateDiv("#experiences_content");
+      activateDiv("#background_content");
     }
   });
 });
