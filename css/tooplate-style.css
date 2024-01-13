@@ -71,8 +71,17 @@ h1 {
 
 h2 {
   color: #353535;
-  font-size: 2.4em;
+  font-size: 2em;
   font-weight: bold;
+}
+
+h2.year {
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  /* padding-top: 1rem; */
+  /* margin-top: 2rem; */
+  margin-bottom: -2rem;
+  text-align: right;
 }
 
 h3 {
@@ -141,6 +150,19 @@ strong {
 }
 .animated-item:nth-child(3n + 3) {
   animation-delay: 4s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Remove marker for ordered list */
+ol {
+  list-style-type: none;
+}
+
+.details {
+  margin-top: 13px;
 }
 
 @keyframes BottomTotop {
