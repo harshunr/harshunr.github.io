@@ -118,6 +118,19 @@ strong {
   font-weight: $font-weight-bold;
 }
 
+ul {
+  list-style-type: none;
+}
+
+/* Remove marker for ordered list */
+ol {
+  list-style-type: none;
+}
+
+.details {
+  margin-top: 13px;
+}
+
 // CUSTOM BUTTON
 .custom-btn {
   color: $body-font-color;
