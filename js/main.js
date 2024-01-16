@@ -30,6 +30,8 @@ $(document).ready(function () {
   $("#background").click(function (e) {
     // If the div has already the class active, no need to reload the divs...
     if (!$(e.target).hasClass("active")) {
+      console.log("Background clicked");
+
       // Update navbar
       clearActiveLinks();
       activateLink(e);
@@ -45,6 +47,10 @@ $(document).ready(function () {
 
 function clearActiveLinks() {
   $("#navbarList .nav-item .nav-link").each(function () {
+    $(this).removeClass("active");
+  });
+
+  $("#navbarList .nav-item .nav-link span").each(function () {
     $(this).removeClass("active");
   });
 }
