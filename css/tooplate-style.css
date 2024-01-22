@@ -403,6 +403,12 @@ ol {
 .owl-carousel .owl-nav span {
   display: none;
 }
+
+.other {
+  height: 350px; /* Set the desired height */
+  width: 600px; /* Set the desired width */
+}
+
 .owl-carousel .owl-nav .owl-prev:before,
 .owl-carousel .owl-nav .owl-next:before {
   background: none;

@@ -1,4 +1,5 @@
 $("#background_content").hide();
+$("#project_content").hide();
 
 $(document).ready(function () {
   console.log("Welcome to my website!");
@@ -41,6 +42,24 @@ $(document).ready(function () {
 
       // Show current content
       activateDiv("#background_content");
+    }
+  });
+
+  // Handle 'Project' content
+  $("#project").click(function (e) {
+    // If the div has already the class active, no need to reload the divs...
+    if (!$(e.target).hasClass("active")) {
+      console.log("Project clicked");
+
+      // Update navbar
+      clearActiveLinks();
+      activateLink(e);
+
+      // Hide other contents
+      clearActiveDivs();
+
+      // Show current content
+      activateDiv("#project_content");
     }
   });
 });
