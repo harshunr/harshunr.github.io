@@ -351,6 +351,9 @@ ol {
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
 }
+.dark-mode hr {
+  border-top: 1px solid #818182;
+}
 
 .timeline-wrapper {
   position: relative;
