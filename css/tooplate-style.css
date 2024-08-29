@@ -25,6 +25,10 @@ body {
   letter-spacing: 0.2px;
 }
 
+.py-5 {
+  padding-top: 1rem !important;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -47,7 +51,7 @@ a:hover {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
   color: #5b5b5b;
@@ -344,12 +348,12 @@ ol {
 .dark-mode p,
 .dark-mode div,
 .dark-mode .color-mode {
-  color: #ffffff;
+  color: #e6e5e5;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
+  color: #e6e5e5;
 }
 .dark-mode hr {
   border-top: 1px solid #818182;
@@ -622,10 +626,10 @@ ol {
     vertical-align: top;
   }
 }
-
+/* 
 .about_content {
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: "Roboto", sans-serif;
+} */
 
 .academics {
   width: 100%;
